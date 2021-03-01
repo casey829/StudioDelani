@@ -47,6 +47,9 @@
   .what-we-do .heading{
     padding-bottom: 38px;
 }
+.what-we-do p{
+ display: none;
+}
 #portfolio{
     margin-top: 20px;
     align-items: center;
