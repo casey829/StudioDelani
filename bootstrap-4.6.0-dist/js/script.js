@@ -1,11 +1,35 @@
 
   $(document).ready(function(){
-    
-    $('.main').click(function () {
-      $(this).children('.hideMe').slideToggle(1200);
-      $(this).children('.show').toggle(1500);
+    $("#developmentImage").click(function(){
+      $("#developmentImage").slideDown('1500').hide('1000');
+      $("#development").show('1500');
+    });
+    $("#development").click(function(){
+      $("#development").slideUp('1500');
+      $("#developmentImage").slideDown('1500');
     });
   });
+  $(document).ready(function(){
+    $("#designImage").click(function(){
+      $("#designImage").slideDown('1500').hide('1000');
+      $("#design").show('1500');
+    });
+    $("#design").click(function(){
+      $("#design").slideUp('1500');
+      $("#designImage").slideDown('1500');
+    });
+  });
+  $(document).ready(function(){
+    $("#productImage").click(function(){
+      $("#productImage").slideDown('1500').hide('1000');
+      $("#product").show('1500');
+    });
+    $("#product").click(function(){
+      $("#product").slideUp('1500');
+      $("#productImage").slideDown('1500');
+    });
+  });
+
  
 $(document).ready(function(){
   $("#work1").mouseover(function(){

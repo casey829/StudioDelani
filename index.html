@@ -38,50 +38,63 @@
         </div>
         <!--page3-->
         <div class="page3">
-            <h1>SERVICES</h1>
+            <h1 id="services">SERVICES</h1>
             <P>Before we sign a contract or write a line of code our team will spend the necessarry time needed to
                 understand your product vision </P>
             <p>The outcome of this scoping session is proposal or high-level statement of work.<br>
                 Based on your requirements, we can provide a complete offering or just the pieces you need.</p>
         </div>
         <!--page4-->
-        <div class="container whatWeDo ">
-            <h1 class="text-center what ">What we do</h1>
-            <div class="row text-center">
-                <div class="col-md-4 main">
-                    <img src="/assets/services_icons/design_icon.png" class="show img-fluid">
-                    <h5><strong>DESIGN</strong></h5>
-                    <div class="hideMe">
-                        <p> Our design practice offers a full range of services including brand strategy,interaction and
-                            visual design and user experience testing.</p>
-                        <p>Throughout yuor project,our designers create and implement visual design and
-                            workflows,solicit
-                            user feedback and work with you to make sure what gets built is what is needed.</p>
+        <div class="what-we-do">
+            <h2>WHAT WE DO</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div id="design">
+                        <h2 class="title">DESIGN</h2>
+                        <p>Our design practice offers a full range of services including brand strategy, interaction and
+                            visual
+                            design and user experience testing.</p>
+                        <p>Throughout your project, our designers create and implement visual design and workflows,
+                            solicit user
+                            feedback and work with you to make sure what gets built is what is needed.</p>
+                    </div>
+                    <div id="designImage">
+                        <img src="assets/services_icons/design_icon.png" alt="design">
+                        <p>DESIGN</p>
                     </div>
                 </div>
-                <div class="col-md-4 main">
-                    <img src="/assets/services_icons/dev_icon.png" class="show img-fluid">
-                    <h5><strong>DEVELOPMENT</strong></h5>
-                    <div class="hideMe">
-                        <P>All engineers are fluent in the latest enterprise, mobile and web development technologies.
-                            They
-                            collaborate with your team to write, and improve code on a daily basis, using proven
+                <div class="col-md-4">
+                    <div id="development">
+                        <h2 class="title">DEVELOPMENT</h2>
+                        <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                        </p>
+                        <p>They collaborate with your team to write, and improve code on a daily basis, using proven
                             practices
-                            such as test-driven development and pair programming. </P>
+                            such
+                            as test-driven development and pair programming.</p>
+                    </div>
+                    <div id="developmentImage">
+                        <img src="assets/services_icons/dev_icon.png" alt="development">
+                        <P>DEVELOPMENT</P>
                     </div>
                 </div>
-                <div class="col-md-4 main">
-                    <img src="/assets/services_icons/product_icon.png" class="show img-fluid">
-                    <h5><strong>PRODUCT MANAGEMENT</strong></h5>
-                    <div class="hideMe">
-                        <p>Planning and development is iterative. Because we are constantly coding and testing, the
-                            products
-                            we build are always ready to go live. This iterative process allows for changes as business
-                            requirements evolve.</p>
+                <div class="col-md-4">
+                    <div id="product">
+                        <h2 class="title">PRODUCT MANAGEMENT</h2>
+                        <p id>All engineers are fluent in the latest enterprise, mobile and web development
+                            technologies.</p>
+                        <p>They collaborate with your team to write, and improve code on a daily basis, using proven
+                            practices
+                            such
+                            as test-driven development and pair programming.</p>
+                    </div>
+                    <div id="productImage">
+                        <img src="assets/services_icons/product_icon.png" alt="products">
+                        <P>PRODUCT MANAGEMENT</P>
                     </div>
                 </div>
             </div>
-        </div>
+        </di>
         <!--page5-->
         <h2 class="heading2">PORTFOLIO</h2>
         <div class="row" id="portfolio">
@@ -123,24 +136,29 @@
 
 
         <!--page6-->
-        <div class="container-fluid contact">
-            <h2>CONTACT US</h2>
-            <form id="form4" action="" method="POST">
-                <input type="hidden" name="u" value="e71bed4d6ae5a7c984dfe28b0">
-      <input type="hidden" name="id" value="dbf7e27685">
-        <div class="form-group form-inline">
-            <input type="text" class="form-control" placeholder="Name...." name="MERGE1" id="MERGE1" size="25" value="">
-            <input type="email" class="form-control" placeholder="Email...." autocapitalize="off" autocorrect="off"
-                name="MERGE0" id="MERGE0" size="25" value="">
+        <div class="card bg-dark text-white">
+            <img src="assets/backgrounds/c_image.jpg" class="card-img" alt="contact background">
+            <div class="card-img-overlay">
+              <h2>CONTACT US</h2>
+        
+            <form>
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" class="form-control" id="name" placeholder="Name" required>
+                  </div>
+                  <div class="col">
+                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" rows="8" id="comment" placeholder="Your message here...."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary col-md-1">Submit</button>
+              </form>    
+
         </div>
-        <div class="form-group">
-            <textarea class="form-control" rows="8" id="comment" placeholder="Your message here...."></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary col-md-1">Submit</button>
     </div>
     </div>
-</div>
-</form>
     <!--social icons-->
     <footer>
         <img src="/assets/social_icons/twitter.png" alt="twitter">
