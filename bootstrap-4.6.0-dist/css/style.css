@@ -66,6 +66,14 @@
     padding-top:40px;
     font-family: 'Gabriela', serif;
 }
+.contact{
+    background-image: url('/assets/backgrounds/c_image.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    /* text-align: center; */
+  }
 footer{
     text-align: center;
     padding-top: 30px;
